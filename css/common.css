@@ -18,3 +18,11 @@
 .shortcut .fr {
     float: right;
 }
+
+.style_red {
+    color: #c81623;
+}
+
+.shortcut ul li {
+    float: left;
+}
