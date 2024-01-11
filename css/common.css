@@ -58,7 +58,7 @@
 .header {
     position: relative;
     height: 105px;
-    background-color: pink;
+    /* background-color: pink; */
 }
 
 .logo {
@@ -66,7 +66,7 @@
     top: 25px;
     width: 171px;
     height: 61px;
-    background-color: skyblue;
+    /* background-color: skyblue; */
 }
 
 .logo a {
@@ -118,4 +118,31 @@
 
 .header .hotwords a {
     margin: 0 10px;
+}
+
+.shopcar {
+    position: absolute;
+    top: 25px;
+    right: 63px;
+    width: 140px;
+    height: 36px;
+    border: 1px solid #dfdfdf;
+    background-color: #f7f7f7;
+    font-size: 12px;
+    color: #666;
+    line-height: 36px;
+    text-align: center;
+    margin: 0 14px 0 7px;
+}
+
+.shopcar::before {
+    font-family: 'icomoon';
+    content: '\e93a';
+    color: #d84a4a;
+}
+
+.shopcar::after {
+    font-family: 'icomoon';
+    content: '\e920';
+    color: #999;
 }
