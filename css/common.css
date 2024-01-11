@@ -192,3 +192,37 @@
     height: 455px;
     background-color: #c81623;
 }
+
+.dropdown .dd ul li {
+    height: 32px;
+    line-height: 32px;
+    margin-left: 2px;
+}
+
+.dropdown .dd ul {
+    position: relative;
+}
+
+.dropdown .dd ul li::after {
+    position: absolute;
+    top: 1px;
+    right: 10px;
+    color: #fff;
+    font-family: 'icomoon';
+    content: '\e920';
+    font-size: 14px;
+}
+
+.dropdown .dd ul li:hover {
+    background-color: #fff;
+}
+
+.dropdown .dd ul li:hover a {
+    color: #b1191a;
+}
+
+.dropdown .dd ul li a {
+    padding-left: 10px;
+    font-size: 14px;
+    color: #fff;
+}
