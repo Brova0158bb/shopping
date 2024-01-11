@@ -146,3 +146,34 @@
     content: '\e920';
     color: #999;
 }
+
+.count {
+    position: absolute;
+    top: -5px;
+    /* right: 20px; */
+    left: 105px;
+    height: 14px;
+    padding: 0 5px;
+    background-color: #e60012;
+    border-radius: 7px 7px 7px 0px;
+    color: #fefefe;
+    line-height: 14px;
+}
+
+/* nav模块制作 */
+.nav {
+    height: 45px;
+    border-bottom: 2px solid #b1191a;
+}
+
+.nav .dropdown {
+    float: left;
+    width: 210px;
+    height: 45px;
+    /* line-height: 45px; */
+    background-color: #b1191a;
+}
+
+.nav .navitems {
+    float: left;
+}
