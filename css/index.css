@@ -3,6 +3,7 @@
     height: 455px;
     /* background-color: pink; */
     margin-left: 220px;
+    margin-top: 10px;
 }
 
 .main .focus {
@@ -18,4 +19,41 @@
     height: 100%;
     /* margin-left: 9px; */
     background-color: yellowgreen;
+}
+
+.news {
+    height: 165px;
+    background-color: pink;
+}
+
+.news .news-hd {
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px dotted #e8e8e7;
+    padding: 0 15px;
+}
+
+.news .news-hd h5 {
+    float: left;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.news .news-hd .more {
+    float: right;
+}
+
+.news .news-hd .more::after {
+    font-family: 'icomoon';
+    content: '\e920';
+
+}
+
+.lifeservice {
+    height: 210px;
+    background-color: purple;
+}
+
+.bargain {
+    margin-top: 5px;
 }

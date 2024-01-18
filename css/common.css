@@ -189,7 +189,7 @@
 
 .dropdown .dd {
     width: 210px;
-    height: 455px;
+    height: 465px;
     background-color: #c81623;
 }
 
@@ -242,9 +242,9 @@
 }
 
 /* 底部模块的制作 */
-.dd {
+/* .dd {
     display: none;
-}
+} */
 
 .footer {
     height: 417px;
